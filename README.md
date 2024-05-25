@@ -21,6 +21,9 @@
 很奇怪的一个bug，如果idea直接运行`OSSFileBrowse`，爬取某个存储桶上的文件是正常的。
 
 如果我通过`maven`打包成jar之后，再去跑该存储桶，将会爬不到数据。
+
+猜测应该是响应数据(xml)里面某个key的键值有乱七八糟的东西，故导致xml无法解析。
+
 <img src="./images/3.png">
 
 <img src="./images/4.png">
