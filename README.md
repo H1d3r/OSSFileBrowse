@@ -17,7 +17,11 @@
 
 按钮`下一个`将会切换到下一个存储桶资源、按钮`上一个`将会返回到上一个资源。
 
-~~# bug~~
+# bug
+<font color="red"> bug已改，设置jvm启动的编码格式就可以了</font>
+```
+java -Dfile.encoding=UTF-8 -jar OSSFileBrowse-1.0-SNAPSHOT.jar
+```
 ~~很奇怪的一个bug，如果idea直接运行`OSSFileBrowse`，爬取某个存储桶上的文件是正常的。~~
 
 ~~如果我通过`maven`打包成jar之后，再去跑该存储桶，将会爬不到数据。~~
