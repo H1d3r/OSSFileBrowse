@@ -44,7 +44,12 @@ java -Dfile.encoding=UTF-8 -jar OSSFileBrowse-1.0-SNAPSHOT.jar
 
 <img src="./images/img.png">
 
+# 期望
+
+或许以后会增加在存储桶寻找敏感信息的功能，以后再说吧。
 
 # 最后
 
 如果该项目对你有帮助，给一个小小的`star`吧。
+
+
