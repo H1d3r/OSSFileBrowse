@@ -7,7 +7,7 @@
 
 # 使用
 直接运行`OSSFileBrowse-1.0-SNAPSHOT.jar`、
-或命令行运行`java -jar OSSFileBrowse-1.0-SNAPSHOT.jar`
+或命令行运行`java -Dfile.encoding=UTF-8 -jar OSSFileBrowse-1.0-SNAPSHOT.jar`（运行run.bat就行）
 
 <img src="./images/1.png">
 
